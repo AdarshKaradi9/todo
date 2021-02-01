@@ -6,6 +6,12 @@
   padding: 50px;
 }
 
+input {
+  width: 70%;
+  padding: 6px 10px;
+  margin: 1px 0;
+  box-sizing: border-box;
+}
 .login-inner {
   padding: 10px;
 }
