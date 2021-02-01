@@ -5,9 +5,15 @@
   text-align: center;
   padding: 50px;
 }
-
+.form {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 input {
-  width: 70%;
+  align-items: center;
+  justify-content: center;
+  width: 68%;
   padding: 6px 10px;
   margin: 1px 0;
   box-sizing: border-box;
@@ -68,7 +74,7 @@ input {
 }
 
 .todo {
-  padding: 20px;
+  padding: 30px;
   border: 0.01em solid rgb(230, 220, 220);
 }
 

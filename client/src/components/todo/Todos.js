@@ -46,7 +46,7 @@ const Todos = ({ auth: {isAuthenticated, user }, todos: { todos }, getTodo, addT
                         <input type="text" placeholder="description" value={description} onChange={ e => onChange(e)} name="description"/>{' '}
                         <input type="submit" className="btn btn-primary btn-sm" value="add" />
                     </div>
-                    { todos && <i>Remaining todos :{todos.length}</i>}
+                    { todos && <i>Remaining todos: {todos.length}</i>}
                 </form>
                 <div>
                     { todos && todos.length>0 ? (todos.reverse().map(todo => 
