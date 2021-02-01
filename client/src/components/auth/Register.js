@@ -30,7 +30,7 @@ const Register = ({ register, isAuthenticated }) => {
     
     return (
         <Fragment>
-            <div className='login p-10'>
+            <div className='login'>
                 <section className="container w-50 login-inner shadow p-3 mb-5 bg-white rounded">
                     <h1><strong>Register</strong></h1>
                     <p>Create an account</p>

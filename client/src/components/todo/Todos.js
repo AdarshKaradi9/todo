@@ -23,6 +23,7 @@ const Todos = ({ auth: {isAuthenticated, user }, todos: { todos }, getTodo, addT
             const userId = user._id;
             addTodo({ name, description, userId });
         }        
+        setodoData({ ...todoData,  name: '', description: ''})
     }
 
     const onRemove = async (e, userId, todoId) => {
